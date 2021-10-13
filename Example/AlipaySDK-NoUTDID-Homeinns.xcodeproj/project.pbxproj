@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		03C0D150BBCB5459695CD7BD /* Pods-AlipaySDK-NoUTDID-Homeinns_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK-NoUTDID-Homeinns_Tests.release.xcconfig"; path = "Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		164502AC2BCD5B41A346F579 /* Pods-AlipaySDK-NoUTDID-Homeinns_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlipaySDK-NoUTDID-Homeinns_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		581659723474DDEAA8B12790 /* AlipaySDK-NoUTDID-Homeinns.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "AlipaySDK-NoUTDID-Homeinns.podspec"; path = "../AlipaySDK-NoUTDID-Homeinns.podspec"; sourceTree = "<group>"; };
+		581659723474DDEAA8B12790 /* AlipaySDK-NoUTDID-Homeinns.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "AlipaySDK-NoUTDID-Homeinns.podspec"; path = "../AlipaySDK-NoUTDID-Homeinns.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -29,8 +29,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		684704163DDB3EA19EB746CB /* Pods_AlipaySDK_NoUTDID_Homeinns_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlipaySDK_NoUTDID_Homeinns_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		834EA30E1E9D3F9F0F133C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A114DD9EC7119C49AACC1734 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		834EA30E1E9D3F9F0F133C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A114DD9EC7119C49AACC1734 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,6 @@
 				164502AC2BCD5B41A346F579 /* Pods-AlipaySDK-NoUTDID-Homeinns_Tests.debug.xcconfig */,
 				03C0D150BBCB5459695CD7BD /* Pods-AlipaySDK-NoUTDID-Homeinns_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,7 +128,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				0C2179A5FF2C39F4881273AA /* [CP] Embed Pods Frameworks */,
+				14893C4BCF8BDB5A2BF81395 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -185,22 +185,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C2179A5FF2C39F4881273AA /* [CP] Embed Pods Frameworks */ = {
+		14893C4BCF8BDB5A2BF81395 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AlipaySDK-NoUTDID-Homeinns/AlipaySDK_NoUTDID_Homeinns.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests-resources.sh",
+				"${PODS_ROOT}/../../AlipaySDK-NoUTDID-Homeinns/AlipaySDK.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlipaySDK_NoUTDID_Homeinns.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlipaySDK-NoUTDID-Homeinns_Tests/Pods-AlipaySDK-NoUTDID-Homeinns_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B698CA5C6EBAFB38BA3B298 /* [CP] Check Pods Manifest.lock */ = {
