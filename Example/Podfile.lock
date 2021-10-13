@@ -1,0 +1,23 @@
+PODS:
+  - AlipaySDK-NoUTDID-Homeinns (15.8.03):
+    - UTDID
+  - UTDID (1.0.0)
+
+DEPENDENCIES:
+  - AlipaySDK-NoUTDID-Homeinns (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - UTDID
+
+EXTERNAL SOURCES:
+  AlipaySDK-NoUTDID-Homeinns:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-NoUTDID-Homeinns: 6bb6bd4e0c5c1966d0dbbf45705f04398db581f8
+  UTDID: 05c4737c8cf5c210e86d0235570816ed00e023e8
+
+PODFILE CHECKSUM: 2bedcf8442823e24b45ac77957bf1394efe8c67b
+
+COCOAPODS: 1.11.2
