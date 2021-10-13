@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AlipaySDK-NoUTDID-Homeinns_Tests' do
+  pod 'AlipaySDK-NoUTDID-Homeinns', :path => '../'
+  
+  
+end
