@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'AlipaySDK-NoUTDID-Homeinns'
-    s.version          = '15.8.03'
+    s.version          = '15.8.030'
     s.summary          = '支付宝iOS SDK，未包含阿里百川 SDK；解决构建时可能发生utdid 库相关的冲突'
     
     # This description is used to generate tags and improve search results.
@@ -45,7 +45,8 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'AlipaySDK-NoUTDID-Homeinns/AlipaySDK.framework'
     s.requires_arc = true
     s.dependency 'UTDID'
-    
+    s.preserve_paths = 'AlipaySDK-NoUTDID-Homeinns/AlipaySDK.framework'
+
     s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
     s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
